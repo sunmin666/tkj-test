@@ -20,7 +20,7 @@
                 <p>跑步机是家庭及健身房常备的健身器材，而且是当今家庭健身器材中最简单的一种，是家庭健身器的最佳选择。1965年北欧芬兰唐特力诞生了全球第一台家用的跑步机，设计师根据传速带的原理改变而成1965年北欧芬兰唐特力诞生了全球第一台家用的跑步</p>
             </div>
             <div class="clear"></div>
-           <button class="btn">￥3000</button> 
+           <button class="btn"><router-link to="/Yang?id=1" class="dsd">￥3000</router-link></button> 
         </div>
          <div class="pic">
             <div class="pic-left">
@@ -30,7 +30,7 @@
                 <p>跑步机是家庭及健身房常备的健身器材，而且是当今家庭健身器材中最简单的一种，是家庭健身器的最佳选择。1965年北欧芬兰唐特力诞生了全球第一台家用的跑步机，设计师根据传速带的原理改变而成1965年北欧芬兰唐特力诞生了全球第一台家用的跑步</p>
             </div>
             <div class="clear"></div>
-           <button class="btn">￥6000</button> 
+           <button class="btn"><router-link to="/Yang?id=2" class="dsd">￥6000</router-link></button> 
         </div>
          <div class="pic">
             <div class="pic-left">
@@ -40,18 +40,23 @@
                 <p>跑步机是家庭及健身房常备的健身器材，而且是当今家庭健身器材中最简单的一种，是家庭健身器的最佳选择。1965年北欧芬兰唐特力诞生了全球第一台家用的跑步机，设计师根据传速带的原理改变而成1965年北欧芬兰唐特力诞生了全球第一台家用的跑步</p>
             </div>
             <div class="clear"></div>
-           <button class="btn">￥9000</button> 
+           <button class="btn"><router-link to="/Yang?id=3" class="dsd">￥9000</router-link></button> 
+        </div>
+        <div class="flert">
+            联系电话：17600706563
         </div>
     </div>
 </template>
 <style>
 body{
     height: 100%;
-     background: #7b7b7b;
+    background: #7b7b7b;
+    
 }
 .sun{
     padding: 0.4rem;
     color: #ffffff;
+    text-decoration: none;
 }
 .sun .header{
     width: 100%;
@@ -121,5 +126,16 @@ body{
     font-size: 1.2rem;
     margin-left: 3rem;
     margin-bottom: 1rem;
+}
+.dsd{
+    text-decoration: none;
+     color: #ffffff;
+}
+.flert{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-align: center;
 }
 </style>

@@ -60,7 +60,7 @@ export default {
             愿陛下托臣以讨贼兴复之效，不效，则治臣之罪，以告先帝之灵。若无兴德之言，则责攸之、祎、允等之慢，以彰其咎；陛下亦宜自谋，以咨诹善道，察纳雅言，深追先帝遗诏，臣不胜受恩感激。
             今当远离，临表涕零，不知所言。
         `
-    }
+        }
   }
 }
 </script>
@@ -80,10 +80,14 @@ export default {
   }
   .warp{
     width: 100%;
+<<<<<<< HEAD
     min-height: 100%;
+=======
+    height: 100%;
+>>>>>>> sunmin
     display: flex;
     flex-direction: column;
-    background-color: #989292;
+    background: #989292;
     color: #fff;
     position: absolute;
   }

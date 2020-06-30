@@ -95,7 +95,7 @@ export default {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 1.5rem 0.6rem;
+    margin: 2rem 0.6rem 1rem 0.6rem;
     flex-wrap:wrap;
     font-weight: 500;
     font-size: 2rem;

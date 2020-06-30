@@ -11,11 +11,12 @@
     </div>
     <div class="content">
       {{content}}
-    </div>
-    <button class="Buynow">
-        去支付
+      <button class="Buynow">
+      去支付
       </button>
-    <div class="floote">联系电话：4000134319</div>
+    </div>
+    
+    <div class="floote">咨询：400-0134-319</div>
   </div>
 </template>
 <script>
@@ -91,7 +92,7 @@ export default {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 2rem 0.6rem 1rem 0.6rem;
+    margin: 2rem 0.6rem 0 0.6rem;
     flex-wrap:wrap;
     font-weight: 500;
     font-size: 2rem;
@@ -122,18 +123,20 @@ export default {
     padding: 1.5rem 1.5rem 2rem 1.5rem;
     text-align: center;
     background-color: #989292;
+    font-size: 1.2rem;
   }
   .Buynow{
-    width: 4.2rem;
-    height: 1.6rem;
+    width: 6.2rem;
+    height: 2.2rem;
     padding: 0 0.2rem;
     outline: none;
     border: none;
     background-color: #00ca00;
-    color: black;
+    color: white;
     border-radius: 15rem;
-    margin-left: 70%;
+    margin-left: 55%;
     margin-top: 1.5rem;
+    font-size: 1rem;
   }
 </style>
 

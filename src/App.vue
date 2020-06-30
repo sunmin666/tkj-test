@@ -10,4 +10,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+.all{
+  height: 100%;
+}
 </style>

@@ -80,11 +80,7 @@ export default {
   }
   .warp{
     width: 100%;
-<<<<<<< HEAD
     min-height: 100%;
-=======
-    height: 100%;
->>>>>>> sunmin
     display: flex;
     flex-direction: column;
     background: #989292;

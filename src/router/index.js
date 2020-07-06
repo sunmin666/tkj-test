@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Sun from '../views/Sun.vue'
 import Yang from '../views/Yang.vue'
 import Index from '../views/Index.vue'
+import Detail from '../views/Detail.vue'
 
 Vue.use(VueRouter)
 
@@ -23,10 +24,14 @@ Vue.use(VueRouter)
     path: '/sun',
     component: Sun
   },
+  {
+    path: '/detail',
+    component: Detail
+  },
 ]
 
 const router = new VueRouter({
-  // mode: 'history',
+  mode: 'history',
   base: process.env.BASE_URL,
   routes
 })
